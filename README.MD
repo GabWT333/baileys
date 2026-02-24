@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:020b18,50:00bfff,100:1e90ff&height=280&section=header&text=BASED&fontSize=130&fontColor=ffffff&animation=fadeIn&fontAlignY=55&stroke=00bfff&strokeWidth=2&desc=@GabWT333%20·%20WhatsApp%20Web%20API&descSize=18&descAlignY=78&descColor=7ec8e3" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:020b18,50:00bfff,100:1e90ff&height=280&section=header&text=BAILEYS&fontSize=130&fontColor=ffffff&animation=fadeIn&fontAlignY=55&stroke=00bfff&strokeWidth=2&desc=@GabWT333%20·%20WhatsApp%20Web%20API&descSize=18&descAlignY=78&descColor=7ec8e3" width="100%"/>
 
 <!-- LOGO -->
 <br>
