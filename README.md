@@ -20,10 +20,16 @@
   <img src="https://img.shields.io/npm/v/@GabWT333/based?style=for-the-badge&logo=npm&logoColor=white&label=VERSION&color=00bfff&labelColor=020b18"/>
 </a>
 <a href="https://www.npmjs.com/package/@GabWT333/based">
-  <img src="https://img.shields.io/npm/dm/@GabWT333/based?style=for-the-badge&logo=npm&logoColor=white&label=DOWNLOADS&color=1e90ff&labelColor=020b18"/>
+  <img src="https://img.shields.io/npm/dm/@GabWT333/based?style=for-the-badge&logo=npm&logoColor=white&label=DOWNLOADS%2FMO&color=1e90ff&labelColor=020b18"/>
+</a>
+<a href="https://www.npmjs.com/package/@GabWT333/based">
+  <img src="https://img.shields.io/npm/dt/@GabWT333/based?style=for-the-badge&logo=npm&logoColor=white&label=TOTAL+DL&color=00bfff&labelColor=020b18"/>
 </a>
 <a href="https://github.com/GabWT333/based/stargazers">
   <img src="https://img.shields.io/github/stars/GabWT333/based?style=for-the-badge&logo=github&logoColor=white&label=STARS&color=00bfff&labelColor=020b18"/>
+</a>
+<a href="https://github.com/GabWT333/based/forks">
+  <img src="https://img.shields.io/github/forks/GabWT333/based?style=for-the-badge&logo=git&logoColor=white&label=FORKS&color=1e90ff&labelColor=020b18"/>
 </a>
 
 <br>
