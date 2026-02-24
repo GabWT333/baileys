@@ -6,11 +6,11 @@
 ![Retro](https://readme-typing-svg.herokuapp.com?font=VT323&size=24&duration=2500&pause=10000&color=00bfff&center=true&vCenter=true&width=250&height=25&lines=$+by+Gab+aka+333bot)
 <br>
 <p align="center">
-  <img src="https://img.shields.io/npm/v/@gabwt333/based?style=for-the-badge&color=00bfff&labelColor=003d7a" alt="NPM Version">
-  <img src="https://img.shields.io/npm/dm/@gabwt333/based?style=for-the-badge&color=00bfff&labelColor=003d7a" alt="NPM Downloads">
+  <img src="https://img.shields.io/npm/v/@GabWT333/based?style=for-the-badge&color=00bfff&labelColor=003d7a" alt="NPM Version">
+  <img src="https://img.shields.io/npm/dm/@GabWT333/based?style=for-the-badge&color=00bfff&labelColor=003d7a" alt="NPM Downloads">
   <img src="https://img.shields.io/badge/License-MIT-00bfff.svg?style=for-the-badge&labelColor=003d7a" alt="MIT License">
-  <img src="https://img.shields.io/github/stars/gabwt333/based?style=for-the-badge&color=00bfff&labelColor=003d7a" alt="GitHub Stars">
-  <img src="https://img.shields.io/github/forks/gabwt333/based?style=for-the-badge&color=00bfff&labelColor=003d7a" alt="GitHub Forks">
+  <img src="https://img.shields.io/github/stars/GabWT333/based?style=for-the-badge&color=00bfff&labelColor=003d7a" alt="GitHub Stars">
+  <img src="https://img.shields.io/github/forks/GabWT333/based?style=for-the-badge&color=00bfff&labelColor=003d7a" alt="GitHub Forks">
 </p>
 <p align="center">
   <a href="#-main-features"><img src="https://img.shields.io/badge/_Features-00bfff?style=flat-square&logo=github&logoColor=white"/></a>&nbsp;&nbsp;
@@ -186,7 +186,7 @@ The library now includes comprehensive performance optimizations with these defa
 The library includes comprehensive JID/LID validation utilities:
 
 ```javascript
-const { validateJid, getSenderLid, toJid, normalizeJid, isValidJid } = require('@gabwt333/based');
+const { validateJid, getSenderLid, toJid, normalizeJid, isValidJid } = require('@GabWT333/based');
 
 // Validate JID with detailed error information
 const result = validateJid('1234567890@s.whatsapp.net');
@@ -225,7 +225,7 @@ const isValid = isValidJid('1234567890@s.whatsapp.net');
 ### 🎛️ Usage Example
 
 ```javascript
-const { makeWASocket, useMultiFileAuthState, setPerformanceConfig, PerformanceConfig } = require('@gabwt333/based');
+const { makeWASocket, useMultiFileAuthState, setPerformanceConfig, PerformanceConfig } = require('@GabWT333/based');
 
 // Set up authentication
 const { state, saveCreds } = await useMultiFileAuthState('auth_info_baileys');
@@ -302,7 +302,7 @@ This library, based on Baileys with specific improvements, offers an intuitive A
 ### Basic Example - Starting Bot
 
 ```typescript
-import makeWASocket, { DisconnectReason, useMultiFileAuthState, getPerformanceConfig, setPerformanceConfig } from '@gabwt333/based';
+import makeWASocket, { DisconnectReason, useMultiFileAuthState, getPerformanceConfig, setPerformanceConfig } from '@GabWT333/based';
 
 // Configure performance and cache
 setPerformanceConfig({
@@ -325,7 +325,7 @@ async function startBot() {
         auth: state,
         printQRInTerminal: true,
         logger: console,
-        browser: ['GabBot', 'Chrome', '4.0.0'],
+        browser: ['GabWT333', 'Chrome', '4.0.0'],
     });
 
     // Improved reconnection system
@@ -369,7 +369,7 @@ async function startBot() {
 ### Anti-Ban Example - Recommended Configuration to Avoid Bans
 
 ```typescript
-import makeWASocket, { DisconnectReason, useMultiFileAuthState, getPerformanceConfig, setPerformanceConfig, getSenderLid, validateJid } from '@gabwt333/based';
+import makeWASocket, { DisconnectReason, useMultiFileAuthState, getPerformanceConfig, setPerformanceConfig, getSenderLid, validateJid } from '@GabWT333/based';
 
 // Anti-ban configuration to reduce ban risks from improper acks
 setPerformanceConfig({
@@ -465,7 +465,7 @@ startBot().catch(console.error);
 The library now includes an advanced cache system with automatic memory management and configurable TTL:
 
 ```typescript
-import { CacheManager } from '@gabwt333/based';
+import { CacheManager } from '@GabWT333/based';
 
 // Example of using the cache
 const cache = CacheManager;
@@ -525,7 +525,7 @@ setPerformanceConfig({
 ### Basic Message Management with LID/JID
 
 ```typescript
-import makeWASocket, { getSenderLid, toJid, getCacheStats, validateJid, Logger } from '@gabwt333/based';
+import makeWASocket, { getSenderLid, toJid, getCacheStats, validateJid, Logger } from '@GabWT333/based';
 
 // ... (sock creation code here)
 
@@ -617,7 +617,7 @@ await conn.sendMessage(jid, {
 ```typescript
 // Image
 await conn.sendMessage(jid, { 
-    image: { url: './media/gabwt333.jpg' }, // Also supports Buffer
+    image: { url: './media/GabWT333.jpg' }, // Also supports Buffer
     caption: 'zwag'
 });
 
@@ -744,9 +744,9 @@ Combine an image with buttons.
 
 ```typescript
 await conn.sendMessage(jid, {
-  image: { url: 'https://i.ibb.co/hJW7WwxV/gabwt333.jpg' },
+  image: { url: 'https://i.ibb.co/hJW7WwxV/GabWT333.jpg' },
   caption: 'Message with buttons and image',
-  footer: 'gab ✧ bot',
+  footer: 'GabWT333',
   buttons: [
     { buttonId: 'cmd', buttonText: { displayText: 'text1' }, type: 1 },
   ],
@@ -1500,7 +1500,7 @@ await conn.sendMessage(jid, {
         currency: 'EUR',
         amount1000: 5000,
         requestFrom: '393514357738@s.whatsapp.net',
-        note: 'js gimme my money' // https://paypal.me/gabwt333
+        note: 'js gimme my money' // https://paypal.me/GabWT333
     }
 });
 ```
@@ -1993,7 +1993,7 @@ await conn.sendMessage(jid, {
 ### Integrated Example
 
 ```typescript
-import makeWASocket, { getSenderLid, toJid, validateJid } from '@gabwt333/based';
+import makeWASocket, { getSenderLid, toJid, validateJid } from '@GabWT333/based';
 
 conn.ev.on('messages.upsert', async ({ messages }) => {
   const msg = messages[0];
@@ -2017,7 +2017,7 @@ conn.ev.on('messages.upsert', async ({ messages }) => {
 The library now includes an advanced cache system to optimize LID/JID conversions:
 
 ```typescript
-import { getCacheStats, clearCache, setPerformanceConfig } from '@gabwt333/based';
+import { getCacheStats, clearCache, setPerformanceConfig } from '@GabWT333/based';
 
 // Configure custom cache
 setPerformanceConfig({
@@ -2040,7 +2040,7 @@ clearCache();
 ### 🛡️ Advanced JID Validation
 
 ```typescript
-import { validateJid, Logger } from '@gabwt333/based';
+import { validateJid, Logger } from '@GabWT333/based';
 
 const jid = '1234567890@s.whatsapp.net';
 const validation = validateJid(jid);
@@ -2055,7 +2055,7 @@ if (validation.isValid) {
 ### 📊 Conditional Logging
 
 ```typescript
-import { Logger, setPerformanceConfig } from '@gabwt333/based';
+import { Logger, setPerformanceConfig } from '@GabWT333/based';
 
 // Configure logging
 setPerformanceConfig({
@@ -2075,7 +2075,7 @@ Logger.error('Error occurred');
 ### 🔧 Performance Configuration
 
 ```typescript
-import { setPerformanceConfig, getPerformanceConfig } from '@gabwt333/based';
+import { setPerformanceConfig, getPerformanceConfig } from '@GabWT333/based';
 
 // Complete configuration
 setPerformanceConfig({
@@ -2129,7 +2129,7 @@ const sock = makeWASocket({
   // 🖥️ UI and Debug
   printQRInTerminal: true,
   logger: console,
-  browser: ['GabBot', 'Chrome', '4.0.0'],
+  browser: ['GabWT333', 'Chrome', '4.0.0'],
   
   // ⏱️ Timeout and Connection
   defaultQueryTimeoutMs: 60000,
@@ -2166,9 +2166,9 @@ Join the community for help and contributions.
 
 | Channel           | Link/Info                                |
 |------------------|------------------------------------------|
-| **Email**        | [gabwt333@gmail.com](mailto:gabwt333@gmail.com) |
-| **GitHub Issues**| [Report Bug](https://github.com/gabwt333/based/issues) |
-| **PayPal**       | [Donate](https://www.paypal.me/gabwt333) |
+| **Email**        | [GabWT333@gmail.com](mailto:GabWT333@gmail.com) |
+| **GitHub Issues**| [Report Bug](https://github.com/GabWT333/based/issues) |
+| **PayPal**       | [Donate](https://www.paypal.me/GabWT333) |
 | **WhatsApp Channel**| [Channel](https://www.whatsapp.com/channel/0029VbB41Sa1Hsq1JhsC1Z1z) |
 
 ---
@@ -2195,7 +2195,7 @@ Thanks to the projects that inspire Based:
 
 ### 📜 MIT License
 
-MIT License © 2025 [gabwt333](https://github.com/gabwt333)
+MIT License © 2025 [GabWT333](https://github.com/GabWT333)
 
 See [LICENSE](LICENSE) for details.
 
@@ -2205,21 +2205,21 @@ See [LICENSE](LICENSE) for details.
 <table align="center">
   <tr>
     <td align="center">
-      <img src="https://i.ibb.co/Cp0SQznC/gab.png" width="120" height="120" alt="pfp" style="bygabwt333"/>
+      <img src="https://qu.ax/FNs6D" width="120" height="120" alt="pfp" style="byGabWT333"/>
       <br><br>
-      <h2>👨‍💻 Created by <a href="https://github.com/gabwt333" style="color: #00bfff; text-decoration: none;">gabwt333</a></h2>
-      <p><em>gab aka 333bot</em></p>
+      <h2>👨‍💻 Created by <a href="https://github.com/GabWT333" style="color: #00bfff; text-decoration: none;">GabWT333</a></h2>
+      <p><em>GabWT333</em></p>
     </td>
   </tr>
 </table>
 
 <br>
 <p align="center">
-  <a href="https://github.com/gabwt333/based">
+  <a href="https://github.com/GabWT333/based">
     <img src="https://img.shields.io/badge/⭐_Star_the_Project-00bfff?style=for-the-badge&logo=github&logoColor=white&labelColor=003d7a"/>
   </a>&nbsp;&nbsp;
-  <a href="https://github.com/gabwt333/based/fork">
+  <a href="https://github.com/GabWT333/based/fork">
     <img src="https://img.shields.io/badge/🔄_Fork_Repository-00bfff?style=for-the-badge&logo=github&logoColor=white&labelColor=003d7a"/>
   </a>&nbsp;&nbsp;
-  <a href="https://paypal.me/gabwt333">
+  <a href="https://paypal.me/GabWT333">
     <img src="https://img.shields.io/badge/💰_Donate-00bfff?style=for-the-badge&logo=paypal&logoColor=white&lab
