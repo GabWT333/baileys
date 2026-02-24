@@ -1,10 +1,17 @@
 <div align="center">
 
-![Wave](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=150&section=header&text=based&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35)
-<img src="https://i.gifer.com/YdBN.gif" width="200">
+![Wave](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,3&height=200&section=header&text=based&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=by%20GabWT333&descSize=22&descAlignY=62&descColor=ffffff)
 
-![Retro](https://readme-typing-svg.herokuapp.com?font=VT323&size=24&duration=2500&pause=10000&color=00bfff&center=true&vCenter=true&width=250&height=25&lines=$+by+Gab+aka+333bot)
 <br>
+
+<img src="https://qu.ax/FNs6D" width="160" style="border-radius:50%">
+
+<br><br>
+
+![Typing](https://readme-typing-svg.herokuapp.com?font=VT323&size=28&duration=2500&pause=10000&color=00bfff&center=true&vCenter=true&width=300&height=30&lines=$+by+GabWT333)
+
+<br>
+
 <p align="center">
   <img src="https://img.shields.io/npm/v/@GabWT333/based?style=for-the-badge&color=00bfff&labelColor=003d7a" alt="NPM Version">
   <img src="https://img.shields.io/npm/dm/@GabWT333/based?style=for-the-badge&color=00bfff&labelColor=003d7a" alt="NPM Downloads">
@@ -12,6 +19,7 @@
   <img src="https://img.shields.io/github/stars/GabWT333/based?style=for-the-badge&color=00bfff&labelColor=003d7a" alt="GitHub Stars">
   <img src="https://img.shields.io/github/forks/GabWT333/based?style=for-the-badge&color=00bfff&labelColor=003d7a" alt="GitHub Forks">
 </p>
+
 <p align="center">
   <a href="#-main-features"><img src="https://img.shields.io/badge/_Features-00bfff?style=flat-square&logo=github&logoColor=white"/></a>&nbsp;&nbsp;
   <a href="#-installation"><img src="https://img.shields.io/badge/_Installation-00bfff?style=flat-square&logo=npm&logoColor=white"/></a>&nbsp;&nbsp;
@@ -19,7 +27,8 @@
   <a href="#-api-documentation"><img src="https://img.shields.io/badge/_API_Documentation-00bfff?style=flat-square&logo=book&logoColor=white"/></a>&nbsp;&nbsp;
   <a href="#-support-and-community"><img src="https://img.shields.io/badge/_Support-00bfff?style=flat-square&logo=teamspeak&logoColor=white"/></a>
 </p>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=4000&pause=2500&color=00bfff&center=true&vCenter=true&width=800&lines=💜+A+modern%2C+powerful+and+fast+WhatsApp+Web+API+library;🔄+With+support+for+LID%2FJID+and+multi-device;">
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=4000&pause=2500&color=00bfff&center=true&vCenter=true&width=800&lines=💙+A+modern%2C+powerful+and+fast+WhatsApp+Web+API+library;🔄+With+support+for+LID%2FJID+and+multi-device;">
 
 ----
 
@@ -2205,7 +2214,7 @@ See [LICENSE](LICENSE) for details.
 <table align="center">
   <tr>
     <td align="center">
-      <img src="https://qu.ax/FNs6D" width="120" height="120" alt="pfp" style="byGabWT333"/>
+      <img src="https://qu.ax/FNs6D" width="120" height="120" alt="GabWT333" style="border-radius:50%"/>
       <br><br>
       <h2>👨‍💻 Created by <a href="https://github.com/GabWT333" style="color: #00bfff; text-decoration: none;">GabWT333</a></h2>
       <p><em>GabWT333</em></p>
@@ -2222,4 +2231,10 @@ See [LICENSE](LICENSE) for details.
     <img src="https://img.shields.io/badge/🔄_Fork_Repository-00bfff?style=for-the-badge&logo=github&logoColor=white&labelColor=003d7a"/>
   </a>&nbsp;&nbsp;
   <a href="https://paypal.me/GabWT333">
-    <img src="https://img.shields.io/badge/💰_Donate-00bfff?style=for-the-badge&logo=paypal&logoColor=white&lab
+    <img src="https://img.shields.io/badge/💰_Donate-00bfff?style=for-the-badge&logo=paypal&logoColor=white&labelColor=003d7a"/>
+  </a>
+</p>
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,3&height=120&section=footer)
+
+</div>
