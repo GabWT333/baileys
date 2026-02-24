@@ -563,15 +563,6 @@ Critical settings: `markOnlineOnConnect: false` + `syncFullHistory: false`. Lowe
 
 ---
 
-## 🙏 Credits
-
-| Project | Contribution |
-|---|---|
-| [Baileys](https://github.com/WhiskeySockets/Baileys) | Core WhatsApp Web engine |
-| [Yupra](https://www.npmjs.com/package/@yupra/baileys) | LID/JID resolution research |
-| [Signal Protocol](https://signal.org/) | E2E encryption layer |
-
----
 
 ## ⚠️ Disclaimer
 
